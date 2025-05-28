@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adana'ya Gidek Mi?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+  <header>
+    <h1>Adana'ya Gidek Mi?'</h1>
+    <nav>
+      <ul>
+        <li><a href="#tarih">Tarihçe</a></li>
+        <li><a href="#gezi">Gezilecek Yerler</a></li>
+        <li><a href="#yemek">Yöresel Yemekler</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <section id="tarih">
+      <h2>Adana'nın Tarihi</h2>
+      <article>
+        <p>Adana'nın adı, efsanelere göre Uranüs'ün oğlu Adanus'tan gelmektedir. Tarihi kayıtlara göre ise, Hitit metinlerinde "Adaniya" olarak geçen şehir, M.Ö. 16. yüzyılda yaşamış Danuna kavmiyle ilişkilendirilir. Bu kavmin adı, zamanla değişerek Adana halini almıştır. Bölge, Hititlerin ardından Asurlular, Persler, Makedonyalılar, Romalılar ve Bizanslılar gibi pek çok medeniyete ev sahipliği yapmıştır. Özellikle Roma ve Bizans dönemlerinde önemli bir ticaret merkezi olan Adana, Taşköprü gibi ikonik yapıtlara kavuşmuştur. 7. yüzyılda İslam ordularının, 11. yüzyılda Selçukluların hakimiyetine giren şehir, sonrasında Ramazanoğulları Beyliği ve 1517'den itibaren Osmanlı İmparatorluğu'nun bir parçası olmuştur. Bugün de Türkiye Cumhuriyeti'nin önemli sanayi ve kültür merkezlerinden biridir.</p>
+      </article>
+    </section>
+
+
+
+    <section id="gezi">
+      <h2>Gezilecek Yerler</h2>
+      <ul>
+        <li href="https://www.shutterstock.com/image-photo/scenic-view-adana-seyhan-river-600nw-2408276341.jpg">Taşköprü</li>
+        <li>Sabancı Merkez Camii</li>
+        <li>Adana Arkeoloji Müzesi</li>
+        <li>Varda Köprüsü</li>
+        <li>Seyhan Baraj Gölü</li>
+        <p>ve çok daha fazlası..</p>
+      </ul>
+    </section>
+
+
+
+    <section id="yemek">
+      <h2>Yöresel Yemekler</h2>
+      <p>Adana kebabı başta olmak üzere, bici bici, şalgam, analı kızlı gibi birçok özgün lezzetiyle tanınır.</p>
+    </section>
+
+    <section id="galeri">
+      <h2>Fotoğraf Galerisi</h2>
+      <div id="gallery" class="gallery"></div>
+    </section>
+
+    <section id="iletisim">
+      <h2>İletişim</h2>
+      <form id="contactForm">
+        <label for="name">İsim:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Gönder</button>
+      </form>
+    </section>
+
+<section id="sozluk">
+  <h2>📖 Adanaca Bir Kelimeye Ne Dersin?</h2>
+  <button id="kelimeGoster">Tıkla Bakalım</button>
+  <div id="kelimeSonuc" style="margin-top: 20px;"></div>
+</section>
+
+  </main>
+
+  
+
+  <footer>
+    <p>&copy; 2025 Adana Tanıtım Sitesi. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
